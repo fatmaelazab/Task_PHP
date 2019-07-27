@@ -3,11 +3,11 @@
 
 Clone the repository
 
-    git clone https://github.com/fatmaelazab/PHP_Task.git
+    git clone https://github.com/fatmaelazab/Task_PHP.git
 
 Switch to the repo folder
 
-    cd PHP_Task
+    cd Task_PHP
 
 Install all the dependencies using composer
 
