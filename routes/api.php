@@ -26,10 +26,10 @@ Route::group([
     Route::post('register', 'AuthController@register');
 });
 
-// Admin Gets all employees
+// Admin gets all employees
 Route::get('employees', 'AdminController@getEmployees')->middleware('auth','admin');
 
-// Admin get the details of a specific employee
+// Admin gets the details of a specific employee
 Route::get('employee/{id}', 'AdminController@getEmployee')->middleware('auth','admin');
 
 // Admin adds a new employee
